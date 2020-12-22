@@ -143,21 +143,22 @@
 
 .tabs {
     position:relative;
-    min-height:200px;
+    min-height:300px;
     clear:both;
     margin:25px 0;
 }
 .tab {
-    float:left;
+    float:right;
     display: none;
 }
 .tab:first-of-type {
     display: inline-block;
 }
 .tabs-link {
+    
     position: relative;
     top: -14px;
-    height: 20px;
+    height: 10px;
     left: -40px;
 }
 .tab-link {
@@ -176,18 +177,36 @@
     background:#f8f8f8;
 }
 .content {
+    
     background:white;
     position:absolute;
-    top:28px;
+    top:74px;
     left:0;
     right:0;
     bottom:0;
-    padding:20px;
+    padding:10px;
+    
     border:1px solid #ccc;
 }
 .tab:target {
     display: block;
 }
+
+.ol {
+    
+    list-style: none;
+    counter-reset: my-awesome-counter;
+}
+.ol li {
+    
+    counter-increment: my-awesome-counter;
+}
+.ol li::before {
+  content: counter(my-awesome-counter) ". ";
+  color: red;
+  font-weight: bold;
+}
+
     </style>
 
 
@@ -236,63 +255,57 @@ var url = "Loc.json";
     //------------------------------------------
 
     var info = document.getElementById('info');
-    var RetinaList = "Retina test";
-    var AnteriorList = "Anterior Test";
-    var GlaucomaList = "Glaucoma Test";
+   
    
     //------------------------------------------
 
 
 	function forEachFeature(feature, layer) {
 	
-			/* var popupContent = "<h3>The <h3>" +
-					feature.properties.Team + "</b> play here,</br> They are in the " +
-					feature.properties.League + "</br>" +
-					'<a href="'+ feature.properties.Website +'" target="_blank">Website</a></p>' ;
-							
-			if (feature.properties && feature.properties.popupContent) {
-				popupContent += feature.properties.popupContent;
-            }
-             */
-            //var popupContent = "<h3> Retina </h3> </b";
-            //var docObj = feature.Doctors.Retina;
-            //for (i in docObj)
-            
-            RetinaList = "";
-            AnteriorList = "";
-            GlaucomaList = "";
+			            
+            var RetinaList = "";
+            var AnteriorList = "";
+            var GlaucomaList = "";
+            var counter = 0;
         
             for (i in feature.Doctors.Retina) {
-                RetinaList += "<p>" + feature.Doctors.Retina[i] + "</p>";
+                    RetinaList += "<li>" ;
+                    RetinaList += feature.Doctors.Retina[i] ;
+                    RetinaList +="</li>";
+                    counter +=1;
                 
             }
             
             for (i in feature.Doctors.Anterior) {
-                AnteriorList += "<p>" + feature.Doctors.Anterior[i] + "</p>";
-               
+                    AnteriorList += "<li>" ;
+                    AnteriorList  += feature.Doctors.Anterior[i];
+                    AnteriorList += "</li>";
+                    counter +=1;
             }
 
             for (i in feature.Doctors.Glaucoma) {
-                GlaucomaList += "<p>" + feature.Doctors.Glaucoma[i] + "</p>";
-               
+                    GlaucomaList += "<li>" ;
+                    GlaucomaList += feature.Doctors.Glaucoma[i];
+                    GlaucomaList += "</li>";
+                    counter +=1;
             }
 
-            var content = '<div class="tabs">' +
-                '<div class="tab" id="Retina">' +
-                '<div class="content">' +
-                '<b>' + RetinaList + '</b>' +
+            var content = '<div class="tabs" >' + '<h1>' + feature.properties.Name + ' Tot: ' + counter +'</h1>'+
+                '<div class="tab" id="Retina" >' +
+                '<div class="content">' + 
+                '<ol>' + RetinaList + '</ol>' + 
                 '</div>' +
                 '</div>' +
 
                 '<div class="tab" id="tab-2">' +
                 '<div class="content">' +
-                '<b>'+AnteriorList+'</b>' +
+                '<ol>'+AnteriorList+'</ol>' +
                 '</div>' +
                 '</div>' +
 
                 '<div class="tab" id="tab-3">' +
                 '<div class="content">' +
-                '<b>' + GlaucomaList +'</b>' +
+                '<ol>' + GlaucomaList +'</ol>' +
                 '</div>' +
                 '</div>' +
 
