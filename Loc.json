@@ -1,0 +1,658 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "Name": "مستشفي مغربي المحمدية",
+          "Icon": "IconMagrabi"
+        },
+        "Doctors": {
+          "Retina": [
+              "xx",
+              "yy"
+          ],
+          "Anterior": [
+            "xx",
+            "yy"
+          ],
+          
+          "Glaucoma": [
+            "xx",
+            "yy"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.65627480000001,
+            24.7419716
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Name": "مركز مغربي مخرج 14",
+          "Icon": "IconMagrabi"
+        },
+        "Doctors": {
+            "Retina": [
+                "xx",
+                "yy"
+            ],
+            "Anterior": [
+              "xx",
+              "yy"
+            ],
+            
+            "Glaucoma": [
+              "xx",
+              "yy"
+            ]
+          },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.7727846,
+            24.6939246
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Name": "مركز مغربي البديعة‎",
+          "Icon": "IconMagrabi"
+        },
+        "Doctors": {
+            "Retina": [
+                "xx",
+                "yy"
+            ],
+            "Anterior": [
+              "xx",
+              "yy"
+            ],
+            
+            "Glaucoma": [
+              "xx",
+              "yy"
+            ]
+          },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.653724,
+            24.5866879
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Name": "مستشفى الدكتور سليمان الحبيب - مجمع العليا الطبي",
+          "Icon": "IconHab"
+        },
+        "Doctors": {
+            "Retina": [
+                "xx",
+                "yy"
+            ],
+            "Anterior": [
+              "xx",
+              "yy"
+            ],
+            
+            "Glaucoma": [
+              "xx",
+              "yy"
+            ]
+          },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.6775205,
+            24.7039329
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Name": "ممستشفي سليمان الحبيب الريان",
+          "Icon": "IconHab"
+        },
+        "Doctors": {
+            "Retina": [
+                "xx",
+                "yy"
+            ],
+            "Anterior": [
+              "xx",
+              "yy"
+            ],
+            
+            "Glaucoma": [
+              "xx",
+              "yy"
+            ]
+          },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.774919,
+            24.7210908
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Name": "مستشفى الدكتور سليمان الحبيب - التخصصي",
+          "Icon": "IconHab"
+        },
+        "Doctors": {
+            "Retina": [
+                "xx",
+                "yy"
+            ],
+            "Anterior": [
+              "xx",
+              "yy"
+            ],
+            
+            "Glaucoma": [
+              "xx",
+              "yy"
+            ]
+          },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.6569558,
+            24.7191375
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Name": "مستشفي الحبيب السويدي‎",
+          "Icon": "IconHab"
+        },
+        "Doctors": {
+            "Retina": [
+                "xx",
+                "yy"
+            ],
+            "Anterior": [
+              "xx",
+              "yy"
+            ],
+            
+            "Glaucoma": [
+              "xx",
+              "yy"
+            ]
+          },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.6404176,
+            24.5672328
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Name": "مركز بن رشد",
+          "Icon": "IconRushd"
+        },
+        "Doctors": {
+            "Retina": [
+                "د.يحيى الزهراني",
+                "د.محمد الذيب ",
+                " د.عمار دواليبي (اردني) "
+            ],
+            "Anterior": [
+              "د.ماجد العبيلان",
+              "د.عبدالرحمن الخلف",
+              "د.محمد الغامدي",
+              "د.محمد المتعب"
+            ],
+            
+            "Glaucoma": [
+              "د.علي العنزي"
+              
+            ]
+          },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.684936,
+            24.685295
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Name": "مركز رؤية (بن رشد)",
+          "Icon": "IconRushd"
+        },
+        "Doctors": {
+            "Retina": [
+                "د.رامز علي (مصري)",
+                "د.محمد الذيب (مصري)"
+            ],
+            "Anterior": [
+              "د.طارق المضيان ",
+              "د.عبدالرحمن الصقيه"
+            ],
+            
+            "Glaucoma": [
+              "د.ريان الشقاري"              
+            ]
+          },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.6913527,
+            24.6745459
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Name": "بن رشد الدائري الجنوبي",
+          "Icon": "IconRushd"
+        },
+        "Doctors": {
+            "Retina": [
+                "د.سعد الغامدي"
+                
+            ],
+            "Anterior": [
+              "د.محمد الغامدي",
+              "د.ماجد القرشي"
+            ],
+            
+            "Glaucoma": [
+              
+            ]
+          },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.6833919,
+            24.5785877
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Name": "النخبة",
+          "Icon": "IconElite"
+        },
+        "Doctors": {
+            "Retina": [
+                "د.خالد الربيعي ",
+                "د.عبدالله ربيعه"
+            ],
+            "Anterior": [
+                "د.وليد الطويرقي ",
+                "د.سيستيان (اسباني)"
+            ],
+            
+            "Glaucoma": [
+              
+            ]
+          },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.690071,
+            24.699586
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Name": "مركز الحكماء لطب العيون",
+          "Icon": "IconHek"
+        },
+        "Doctors": {
+            "Retina": [
+                " د.سعد الدهمش ",
+                "د.عصام الحارثي ",
+                "د.مروان ابوعمه "
+            ],
+            "Anterior": [
+              "د.عبدالرحمن المعمر ",
+              " د.عثمان العمر",
+              "د.أحمد الصالح ",
+              " د.عبدالمجيد الجعيثن",
+              "د.علي الراجحي ",
+              "د.محمد طه ",
+              "د.ممدوح العمران "
+            ],
+            
+            "Glaucoma": [
+             "د.ممدوح العمران"
+            ]
+          },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.7226497,
+            24.6950714
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Name": "مركز الحكماء 2",
+          "Icon": "IconHek"
+        },
+        "Doctors": {
+            "Retina": [
+                "xx",
+                "yy"
+            ],
+            "Anterior": [
+              "xx",
+              "yy"
+            ],
+            
+            "Glaucoma": [
+              "xx",
+              "yy"
+            ]
+          },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.6713649,
+            24.6935128
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Name": "مركز الأستشاريون للعيون",
+          "Icon": "IconCons"
+        },
+        "Doctors": {
+            "Retina": [
+                "د.سوسن",
+                "د.عادل عقيلي  ",
+                "د.صالح العمرو ",
+                " د.حسن الذيبي ",
+                "د.ايمان القحطاني ",
+                "د.علي الخلافي "
+            ],
+            "Anterior": [
+                "عبدالمجيد الشيحه",
+                "د.عادل اللحيدان",
+                "د.محمد المطلق",
+                "د.خالد الجبير",
+                "د.عبدالعزيز الفدا ",
+                "د.صالح العمرو ",
+                "د.صالح العبيدان " 
+            ],
+            
+            "Glaucoma": [
+              "د.أحمد الداوود",
+              "د.فيصل المبارك",
+              "د.صالح العبيدان"
+            ]
+          },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.6646647,
+            24.7069152
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Name": "مستشفي الحمادي السليمانية",
+          "Icon": "IconHamadi"
+        },
+        "Doctors": {
+            "Retina": [
+                "xx",
+                "yy"
+            ],
+            "Anterior": [
+              "xx",
+              "yy"
+            ],
+            
+            "Glaucoma": [
+              "xx",
+              "yy"
+            ]
+          },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.681757,
+            24.709898
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Name": "مستشفي الحمادي السويدي",
+          "Icon": "IconHamadi"
+        },
+        "Doctors": {
+            "Retina": [
+                "xx",
+                "yy"
+            ],
+            "Anterior": [
+              "xx",
+              "yy"
+            ],
+            
+            "Glaucoma": [
+              "xx",
+              "yy"
+            ]
+          },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.7028728,
+            24.6020561
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Name": "مستشفي الحمادي النزهه",
+          "Icon": "IconHamadi"
+        },
+        "Doctors": {
+            "Retina": [
+                "xx",
+                "yy"
+            ],
+            "Anterior": [
+              "xx",
+              "yy"
+            ],
+            
+            "Glaucoma": [
+              "xx",
+              "yy"
+            ]
+          },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.7100906000001,
+            24.7569155
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Name": "مستشفي رعاية الرياض",
+          "Icon": "IconCare"
+        },
+        "Doctors": {
+            "Retina": [
+                "xx",
+                "yy"
+            ],
+            "Anterior": [
+              "xx",
+              "yy"
+            ],
+            
+            "Glaucoma": [
+              "xx",
+              "yy"
+            ]
+          },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.7800487,
+            24.7013325
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Name": "مركز مغربي 4",
+          "Icon": "IconMagrabi"
+        },
+        "Doctors": {
+            "Retina": [
+                "xx",
+                "yy"
+            ],
+            "Anterior": [
+              "xx",
+              "yy"
+            ],
+            
+            "Glaucoma": [
+              "xx",
+              "yy"
+            ]
+          },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.7454529,
+            24.8019774
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Name": "Branch No. 5",
+          "Icon": "IconMagrabi"
+        },
+        "Doctors": {
+            "Retina": [
+                "xx",
+                "yy"
+            ],
+            "Anterior": [
+              "xx",
+              "yy"
+            ],
+            
+            "Glaucoma": [
+              "xx",
+              "yy"
+            ]
+          },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.8254471,
+            24.7318643
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Name": "Branch No. 6",
+          "Icon": "IconMagrabi"
+        },
+        "Doctors": {
+            "Retina": [
+                "xx",
+                "yy"
+            ],
+            "Anterior": [
+              "xx",
+              "yy"
+            ],
+            
+            "Glaucoma": [
+              "xx",
+              "yy"
+            ]
+          },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.7603874,
+            24.6062888
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Name": "Magrabi Dental Center",
+          "Icon": "IconMagrabi"
+        },
+        "Doctors": {
+            "Retina": [
+                "xx",
+                "yy"
+            ],
+            "Anterior": [
+              "xx",
+              "yy"
+            ],
+            
+            "Glaucoma": [
+              "xx",
+              "yy"
+            ]
+          },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            46.7435217,
+            24.7823707
+          ]
+        }
+      }
+    ]
+  }
